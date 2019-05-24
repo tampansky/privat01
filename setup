@@ -1,0 +1,44 @@
+#!/bin/bash
+#setup.sh
+#color
+blue='\e[1;34m'
+green='\e[0;23m'
+purple='\e[1;35m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+
+echo -e $red "MENGHUBUNGKAN..."
+sleep 0.25
+clear
+echo -e $blue "MENGHUBUNGKAN..."
+sleep 0.25
+clear
+echo -e $red "MENGHUBUNGKAN..."
+sleep 0.25
+clear
+echo -e $blue "MENGHUBUNGKAN..."
+sleep 0.25
+clear
+echo -e $red "MENGHUBUNGKAN..."
+sleep 0.25
+clear
+sleep 0.25
+echo -e $cyan "Installasi..."
+echo -e $red "Loading..."
+apt update
+pkg update
+apt-get install ruby
+pkg install ruby
+apt install python
+apt install wget -y
+pkg install wget -y
+apt install lolcat
+pkg install lolcat
+apt install figlet
+pkg install figlet
+apt install cowsay
+pkg install cowsay
+gem install lolcat
+echo -e "SILAHKAN KETIK bash privat"
+done
+esac
