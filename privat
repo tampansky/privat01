@@ -213,7 +213,7 @@ function menu(){
     sleep 0.25
     echo -e "-______________________________________-" | lolcat
     sleep 0.25
-    echo -e $red "-7. EXIT.                               -"
+    echo -e $red "-7. EXIT.                             -"
     sleep 0.25
     echo -e "-______________________________________-" | lolcat
     sleep 0.25
@@ -226,7 +226,7 @@ sleep 1
 intro
 sleep 0.25
 menu 
-read -e "root@localhost:~#" war
+read -e war
 case $war in 
 	("1")
 	FBH
